@@ -1,5 +1,5 @@
-##TEST TASK
-####Requirements
+## TEST TASK
+#### Requirements
 
 Тестовое задание: REST API с шифрованием (Middle Java Developer, Конкорд банк)
 
@@ -31,4 +31,14 @@
 
 
 Рекомендуется использовать Maven, Spring/Spring Boot, Log4j/Log4j2. Остальное на усмотрение разработчика. Желательно выполнить максимальное количество требований :)
-####How to test an API
+#### How to test an API
+- Run localy
+- Go to http://localhost:8080/swagger-ui.html
+- Go to usr-controller, open getEncodedUsrById and input 
+{
+  "id": 1
+}
+![image](https://user-images.githubusercontent.com/43958636/111880442-6239b600-89b4-11eb-8910-ecef9398f1d2.png)
+- To decode the response go to decodeByFioEncr and input response from getEncodedUsrById
+![image](https://user-images.githubusercontent.com/43958636/111880527-c2c8f300-89b4-11eb-88a4-49969a6b5c6b.png)
+
